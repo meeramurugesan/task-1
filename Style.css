@@ -1,0 +1,910 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/bentonsans-regular");
+@import url("https://fonts.adobe.com/fonts/adapter-mono-pe-variable");
+@import url('https://fonts.cdnfonts.com/css/mercury');
+* {
+  margin: 0;
+  padding: 0;
+}
+.whole-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav-bar .nav-content {
+  background-color: #002349;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Menu {
+  padding-left: 20px;
+}
+.inter-nav-content {
+  padding-right: 20px;
+}
+.alpine-text {
+  font-family: Afacad;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: left;
+  color: #fff;
+}
+.alpine-text img {
+  margin-right: 10px;
+}
+.search {
+  width: 20px;
+  margin-right: 10px;
+}
+.profile {
+  width: 20px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.experiences {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 437px;
+}
+.expereices-text {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: BentonSans;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  background-color: #b28e3b96;
+  border: 1px solid #b28e3b;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.text-lists {
+  background: #002349b5;
+  width: 700px;
+  height: 50px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 27px;
+  border-radius: 30px;
+}
+.text-lists ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text-lists ul li {
+  list-style: none;
+  text-decoration: none;
+  font-family: BentonSans;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.head-content {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+.westhaven-text {
+  width: 765px;
+  font-family: FreightBigProBold-Regular;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.view {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: BentonSans;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: #b28e3b;
+  background-color: #000;
+  border: 1px solid #b28e3b;
+}
+.view img {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+.owing-para {
+  width: 625px;
+  font-family: BentonSans;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.btn-text {
+  display: flex;
+  margin-top: 20px;
+}
+.bedroom-text {
+  font-family: BentonSans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff8c;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.dots {
+  margin-top: 30px;
+}
+.dots img {
+  margin-right: 30px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+.container-two {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  background: #002349;
+}
+.container-two-head {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.residental {
+  font-family: FreightBigProBold-Regular;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: left;
+  color: #fff;
+}
+.explore-category {
+  font-family: FreightBigProSemibold-Italic;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+
+}
+.explore-category img{
+  margin-left: 10px;
+}
+.horizontal-boxes {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
+}
+.horizontal-boxes::-webkit-scrollbar {
+  display: none;
+}
+.line {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 200px;
+}
+.box {
+  width: 447px;
+  height: 707px;
+  padding: 30px;
+  margin-right: 20px;
+}
+.box img {
+  width: 429px;
+  height: 600px;
+  border-radius: 20px;
+}
+.eye-img {
+  position: relative;
+}
+.eye-img img {
+  width: 30px;
+  height: 30px;
+  bottom: 577px;
+  position: relative;
+  left: 365px;
+}
+.video-img img {
+  width: 65px;
+  height: 65px;
+  bottom: 411px;
+  position: relative;
+  left: 211px;
+}
+.westhaven-box {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0315) 0%,
+    rgba(0, 0, 0, 0.0675) 11.13%,
+    rgba(0, 0, 0, 0.108) 23.58%,
+    rgba(0, 0, 0, 0.1575) 35.02%,
+    rgba(0, 0, 0, 0.2025) 45.09%,
+    rgba(0, 0, 0, 0.2475) 56.88%,
+    rgba(0, 0, 0, 0.2925) 66.53%,
+    rgba(0, 0, 0, 0.333) 76.4%,
+    rgba(0, 0, 0, 0.3825) 89.35%,
+    rgba(0, 0, 0, 0.45) 100%
+  );
+  backdrop-filter: blur(4px);
+  position: relative;
+  bottom: 226px;
+  height: 150px;
+  /* box-sizing: border-box; */
+  padding-left: 30px;
+  border-radius: 20px;
+}
+.westhaven-texts {
+  font-family: Mercury Display;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: left;
+  color: #fff;
+  position: relative;
+  bottom: 34px;
+}
+.numbers-box {
+  display: flex;
+  position: relative;
+  bottom: 28px;
+}
+.numbers-text {
+  font-family: Mercury Display;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.apartment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 16px;
+  font-family: BentonSans;
+  font-size: 11px;
+  font-weight: 500;
+  text-align: left;
+  color: #b28e3b;
+  border: 1px solid #b28e3bd9;
+  margin-top: 10px;
+  background: #00000073;
+
+}
+.bedroom-texts {
+  font-family: BentonSans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff8c;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: relative;
+  bottom: 30px;
+}
+.bedroom-texts img {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+.number {
+  font-family: Mercury Display;
+  font-size: 16px;
+  font-weight: 500;
+  color: #b28e3b;
+  text-align: left;
+  margin-right: 10px;
+}
+.share {
+  font-family: Mercury Display;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffffa3;
+  margin-right: 10px;
+}
+.small-box {
+  width: 380px;
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  bottom: 20px;
+  background: #0322458A;
+  backdrop-filter: blur(16px);
+  border-radius: 30px;
+  /* margin-right: 7px; */
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+
+.small-box-inter-one img {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+.small-box-inter-two img {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+.small-box-inter-three img {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+@media (max-width: 1738px) {
+  .text-lists {
+    width: 618px;
+  }
+  .text-lists ul li {
+    font-size: 17px;
+  }
+  .expereices-text {
+    width: 126px;
+    height: 35px;
+  }
+}
+@media (max-width: 1610px) {
+  .text-lists {
+    width: 543px;
+  }
+}
+
+@media (max-width: 1542px) {
+  .text-lists {
+    width: 467px;
+  }
+  .text-lists ul li {
+    font-size: 17px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1490px) {
+  .text-lists {
+    display: none;
+  }
+  .text-lists ul li {
+    display: none;
+  }
+  .expereices-text {
+    display: none;
+  }
+}
+
+@media (max-width: 996px) {
+  .head-content {
+    position: absolute;
+    bottom: 0;
+    left: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .owing-para {
+    text-align: center;
+  }
+  .westhaven-text {
+    text-align: center;
+  }
+  .btn-text {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 924px) {
+  .head-content {
+    left: 75px;
+  }
+}
+@media (max-width: 862px) {
+  .head-content {
+    left: 49px;
+  }
+}
+@media (max-width: 822px) {
+  .head-content {
+    left: 15px;
+  }
+}
+@media (max-width: 818px) {
+  .head-content {
+    left: 35px;
+  }
+  .westhaven-text {
+    text-align: center;
+    width: 736px;
+  }
+}
+@media (max-width: 780px) {
+  .head-content {
+    left: 25px;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 758px) {
+  .head-content {
+    left: 10px;
+  }
+  .alpine-text {
+    font-size: 35px;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .westhaven-text {
+    text-align: center;
+    width: 695px;
+    font-size: 36px;
+  }
+}
+@media (max-width: 700px) {
+  .westhaven-text {
+    text-align: center;
+    width: 539px;
+    font-size: 34px;
+  }
+  .head-content {
+    left: 50px;
+  }
+}
+
+@media (max-width: 666px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .owing-para {
+    text-align: center;
+    width: 500px;
+  }
+}
+@media (max-width: 578px) {
+  .westhaven-text {
+    text-align: center;
+    width: 501px;
+    font-size: 31px;
+  }
+  .owing-para {
+    text-align: center;
+    width: 473px;
+    margin-bottom: 10px;
+  }
+  .alpine-text {
+    font-size: 31px;
+  }
+}
+
+@media (max-width: 548px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .westhaven-text {
+    width: 456px;
+    margin-bottom: 10px;
+  }
+  .dots img {
+    margin-right: 10px;
+  }
+  .Menu {
+    padding-left: 20px;
+    width: 23px;
+  }
+  .search {
+    width: 17px;
+  }
+  .profile {
+    width: 16px;
+  }
+  .head-content {
+    left: 39px;
+  }
+}
+
+@media (max-width: 510px) {
+  .head-content {
+    left: 20px;
+  }
+  .alpine-text {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 478px) {
+  .westhaven-text {
+    width: 362px;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .head-content {
+    left: 56px;
+  }
+  .owing-para {
+    text-align: center;
+    width: 378px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 474px) {
+  .head-content {
+    left: 41px;
+  }
+  .westhaven-text {
+    width: 362px;
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 428px) {
+  .head-content {
+    left: 29px;
+  }
+  .alpine-text img {
+    margin-right: 10px;
+    width: 17px;
+  }
+}
+
+@media (max-width: 404px) {
+  .westhaven-text {
+    width: 343px;
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .owing-para {
+    text-align: center;
+    width: 346px;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  .view {
+    width: 84px;
+  }
+}
+
+@media (max-width: 382px) {
+  .head-content {
+    left: 19px;
+  }
+  .alpine-text {
+    font-size: 24px;
+  }
+  .alpine-text img {
+    margin-right: 7px;
+    width: 13px;
+  }
+}
+
+@media (max-width: 362px) {
+  .westhaven-text {
+    width: 287px;
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+  .owing-para {
+    text-align: center;
+    width: 325px;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+}
+
+/* 
+second-container */
+
+
+
+
+@media(max-width:964px){
+  .box {
+    width: 100%;
+  }
+  .box img {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+}
+.eye-img img{
+  width: 30px;
+  height: 30px;
+}
+.video-img img{
+  width: 30px;
+  height: 30px;
+}
+.bedroom-texts img{
+  width: 10px;
+  height: 10px;
+}
+.small-box-inter-one img{
+  width: 10px;
+  height: 10px;
+}
+.small-box-inter-two img{
+  width: 10px;
+  height: 10px;
+}
+.small-box-inter-three img{
+  width: 10px;
+  height: 10px;
+}
+.small-box{
+  width: 380px;
+  right: 10px;
+  bottom: -5px;
+}
+
+}
+@media(max-width:542px){
+  .residental{
+    font-size: 30px;
+  }
+  .explore-category{
+    font-size: 14px;
+  }
+  .explore-category img {
+    width: 10px;
+  }
+}
+@media(max-width:460px){
+  .horizontal-boxes{
+    padding: 23px;
+  }
+  .box {
+    width: 100%;
+    margin-right: -30px;
+}
+}
+@media(max-width:415px){
+  .horizontal-boxes {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.eye-img img {
+  width: 30px;
+  height: 30px;
+  left: 297px;
+}
+.small-box {
+  width: 307px;
+  right: 10px;
+  bottom: -5px;
+}
+.container-two-head {
+  padding: 16px;
+}
+.eye-img img {
+  width: 20px;
+  height: 20px;
+  left: 269px;
+  bottom: 476px;
+}
+.westhaven-box {
+  bottom: 217px;
+}
+.box {
+  width: 100%;
+  height: 500px;
+  margin-right: -30px;
+}
+.eye-img img {
+  width: 30px;
+  height: 30px;
+  left: 269px;
+  bottom: 415px;
+}
+.box img {
+  width: 100%;
+  height: 464px;
+  border-radius: 20px;
+}
+.video-img img{
+  width: 30px;
+  height: 30px;
+  bottom: 10px;
+
+}
+.bedroom-texts img{
+  width: 10px;
+  height: 10px;
+}
+.small-box-inter-one img{
+  width: 10px;
+  height: 10px;
+}
+.small-box-inter-two img{
+  width: 10px;
+  height: 10px;
+}
+.small-box-inter-three img{
+  width: 10px;
+  height: 10px;
+}
+.eye-img img {
+  width: 19px;
+  height: 19px;
+  left: 269px;
+  bottom: 441px;
+}
+.video-img img {
+  width: 30px;
+  height: 30px;
+  bottom: 307px;
+  left: 166px;
+}
+.residental {
+  font-size: 26px;
+}
+}
+@media(max-width:394px){
+  .eye-img img {
+    width: 30px;
+    height: 30px;
+    left: 269px;
+    bottom: 438px;
+}
+.residental {
+  font-size: 26px;
+}
+.small-box {
+  width: 287px;
+  right: 10px;
+  bottom: 9px;
+}
+}
+@media(max-width:370px){
+  .eye-img img {
+    width: 30px;
+    height: 30px;
+    left: 249px;
+}
+.residental {
+  font-size: 27px;
+}
+.westhaven-texts {
+  font-size: 27px;
+}
+.bedroom-texts {
+  font-size: 12px;
+}
+.small-box {
+  width: 263px;
+  right: 10px;
+  bottom: 3px;
+}
+.numbers-text {
+  font-size: 20px;
+}
+}
+
+@media(max-width:350px){
+  .eye-img img {
+    width: 30px;
+    height: 30px;
+    left: 228px;
+}
+.small-box {
+  width: 236px;
+  right: 10px;
+  bottom: -8px;
+}
+.residental {
+  font-size: 23px;
+}
+.explore-category {
+  font-size: 12px;
+}
+.video-img img {
+  width: 30px;
+  height: 30px;
+  left: 136px;
+}
+.box {
+  width: 100%;
+  height: 459px;
+  box-sizing: border-box;
+  padding: 6px;
+  margin-right: 0;
+}
+.box img {
+  width: 100%;
+  height: 381px;
+  border-radius: 20px;
+}
+.eye-img img {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  bottom: 347px;
+}
+.video img {
+  position: relative;
+  width: 30px;
+  height: 30px;
+} 
+
+.bedroom-texts img {
+  width: 10px;
+  height: 10px;
+}
+.small-box-inter-three img {
+  width: 10px;
+  height: 10px;
+}
+.small-box-inter-one img{
+  width: 10px;
+  height: 10px;
+}
+.small-box-inter-two img{
+  width: 10px;
+  height: 10px;
+}
+
+.westhaven-box {
+  bottom: 207px;
+}
+
+.video-img img {
+  width: 30px;
+  height: 30px;
+  left: 140px;
+  bottom: 264px;
+}
+
+}
